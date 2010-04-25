@@ -11,7 +11,7 @@ use List::Util qw(max);
 ###############################################################################
 # Version numbering.
 ###############################################################################
-our $VERSION = '1.00';
+our $VERSION = '1.02';
 
 ###############################################################################
 # Export our methods.
@@ -92,7 +92,7 @@ sub tt_set_last_modified_header {
 
 CGI::Application::Plugin::TT::LastModified - Set "Last-Modified" header based on TT template
 
-=head1 SYNAPSIS
+=head1 SYNOPSIS
 
   # when you want to set the "Last-Modified" header manually
     use base qw(CGI::Application);
